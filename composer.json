@@ -1,0 +1,33 @@
+{
+    "name": "awesome-nova/features",
+    "description": "Some features for laravel Nova",
+    "keywords": [
+        "laravel",
+        "nova",
+        "card",
+        "filter"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmytro Kulyk",
+            "email": "dmytro@dkulyk.name"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/nova": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AwesomeNova\\Features\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AwesomeNova\\Features\\FeaturesServiceProvider"
+            ]
+        }
+    }
+}
